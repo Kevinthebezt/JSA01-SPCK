@@ -1,4 +1,5 @@
 let carts = JSON.parse(localStorage.getItem('carts')) || [];
+let sum = 0;
 // console.log(carts)
 
 for (let cart of carts) {
@@ -26,9 +27,12 @@ for (let cart of carts) {
 
         card.appendChild(container);
         document.getElementById("products").appendChild(card);
+
+        sum = sum + cart.id;
     }
 
 }
 
 const checkout = document.getElementById("checkout");
-checkout.innerText = "awodjiawd";
+checkout.innerHTML = "Total: " + sum + ".000đ";
+console.log(sum);

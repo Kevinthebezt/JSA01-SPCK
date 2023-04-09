@@ -1,0 +1,156 @@
+body {
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/page_bg_generated_v6b.jpg?t=1679412516);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    margin: 0 !important;
+}
+
+/* Nav bar */
+.container-fluid {
+    background-color: #171A21;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 0 !important;
+    background-color: #1b2838;
+    height: 89px !important;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 200px !important;
+    height: 89px;
+}
+
+.logo img {
+    display: block;
+    margin-top: 20px !important;
+    width: 176px;
+    height: 44px;
+}
+
+.nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center  ;
+}
+
+.nav-link{
+    color: #a7a7a7!important;
+    height: 45px;
+}
+
+.nav-link:hover {
+    color: white!important;
+}
+
+.dropdown-item {
+    background-color: #171A21;
+    color: #a7a7a7;
+}
+
+.dropdown-item:hover {
+    background-color: #171A21;
+    color:white
+}
+
+.dropdown-menu {
+    background-color: #171A21 !important;
+}
+
+.d-flex {
+    padding-right: 150px !important;
+}
+
+
+/* Footer */
+.footer {
+    margin: auto;
+    display: flex;
+    width: 950px;
+    height: 57px;
+}
+
+.valve-img img, .steam-img img {
+    width: auto;
+    height: 25px;
+}
+
+.valve-img, .steam-img {
+    margin: auto 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.rule {
+    margin: auto;
+}
+
+/* Form */
+
+.container {
+    padding: 50px;
+    padding-top: 129px;
+    margin-left: 330px;
+}
+
+.container-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.container button {
+    width: 100%;
+}
+
+input {
+    width: 300px !important;
+    height: 36px !important;
+    background-color: #32353c !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+input:active {
+    border: 0;
+}
+
+label {
+    color: #989797;
+    padding: 5px !important;
+}
+
+button {
+    color: white;
+    background-color: #3082e1;
+    width: 161px !important;
+    height: 37px;
+}
+
+button:hover {
+    color: #bcedfe;
+    background-color: #3faaf4;
+}
+
+#status {
+    color: red;
+}

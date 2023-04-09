@@ -1,0 +1,231 @@
+body {
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/page_bg_generated_v6b.jpg?t=1679412516);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    margin: 0 !important;
+}
+
+/* Nav bar */
+.container-fluid {
+    background-color: #171A21;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 0 !important;
+    background-color: #1b2838;
+    height: 89px !important;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 200px !important;
+    height: 89px;
+}
+
+.logo img {
+    display: block;
+    margin-top: 20px !important;
+    width: 176px;
+    height: 44px;
+}
+
+.nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center  ;
+}
+
+.nav-link{
+    color: #a7a7a7!important;
+    height: 45px;
+}
+
+.nav-link:hover {
+    color: white!important;
+}
+
+.dropdown-item {
+    background-color: #171A21;
+    color: #a7a7a7;
+}
+
+.dropdown-item:hover {
+    background-color: #171A21;
+    color:white
+}
+
+.dropdown-menu {
+    background-color: #171A21 !important;
+}
+
+.d-flex {
+    padding-right: 150px !important;
+}
+
+
+/* Footer */
+.footer {
+    margin: 50px auto;
+    display: flex;
+    width: 950px;
+    height: 57px;
+}
+
+.valve-img img, .steam-img img {
+    width: auto;
+    height: 25px;
+}
+
+.valve-img, .steam-img {
+    margin: auto 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.rule {
+    margin: auto;
+}
+
+/* Name  */
+.game {
+    position: relative;
+    padding-top: 129px !important;
+}
+
+/* .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#product-text {
+    color: white;
+    margin-left: 165px;
+}
+
+.card {
+	width: 400px;
+    margin: 1px !important;
+    margin-top: 2px;
+	height: 215px;
+	position: relative;
+	margin: 0 20px;
+    color: white;
+    background-color: #171A21;
+}
+
+.img-container {
+	width: 350px !important;
+	position: absolute;
+	top: 0;
+	left: 25px;
+	z-index: 2;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container {
+	width: 350px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	position: absolute;
+	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+	opacity: 0;
+    color: white;
+}
+
+.product-name {
+    color: white;
+    padding-top: 200px;
+}
+
+.card button {
+    display: flex;
+    justify-content: center;
+    background-color: #243e51;
+    color: #439fdd;
+}
+
+.card button:hover {
+    background-color: #56a1cd;
+    color: #e5f0f7;
+}
+
+.card h6 {
+    color: rgb(0, 255, 149);
+} */
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 5px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 10px;
+    background-color: #191b1f;
+    border-radius: 10px;
+    color: white;
+}
+
+.contaier {
+    display: flex !important;
+}
+
+.card h6 {
+    color: rgb(0, 255, 149);
+}
+
+.total-container {
+    display: flex;
+    justify-content: center;
+    color: white !important;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.buy-button{
+    display: flex;
+    justify-content: center;
+}
+
+.buy-button button {
+    background-color: rgb(74, 135, 12) !important;
+    border: 0;
+    color: lawngreen !important;
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+}
+/* 
+.myself:hover {
+    background-color: rgb(92, 166, 17);
+    color: rgb(101, 202, 0);
+}
+
+.gift:hover {
+    background-color: rgb(92, 166, 17);
+    color: rgb(101, 202, 0);
+} */

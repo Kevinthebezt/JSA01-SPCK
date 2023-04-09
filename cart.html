@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/cart.css">
   <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
@@ -45,9 +45,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" id="input-search" type="search" placeholder="Search" aria-label="Search"
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
                 style="background-color: #223a4c; color: #588aa9;">
-              <button type="button" class="btn btn-outline-primary" id="btn-search"><i
+              <button type="button" class="btn btn-outline-primary"><i
                   class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
@@ -57,68 +57,22 @@
 
     <!-- Game -->
     <div class="game">
-      <h7 style="color: white; margin-left: 162px;">FEATURED & RECOMMENDED</h7>
-      <div class="slider">
-        <!-- <img src="img/img-1.jpg" width="70%" class="slideshow">
-                <img src="img/img-2.jpg" width="70%" class="slideshow">
-                <img src="img/img-3.jpg" width="70%" class="slideshow">
-                <img src="img/img-4.jpg" width="70%" class="slideshow">
-                <img src="img/img-5.jpg" width="70%" class="slideshow">
-                <img src="img/img-6.jpg" width="70%" class="slideshow">
-                <img src="img/img-7.jpg" width="70%" class="slideshow">
-                <img src="img/img-8.jpg" width="70%" class="slideshow">
-                <img src="img/img-9.jpg" width="70%" class="slideshow">
-                <img src="img/img-10.jpg" width="70%" class="slideshow"> -->
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/img-1.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-2.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-3.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-4.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-5.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-6.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-7.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-8.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-9.jpg" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/img-10.jpg" class="d-block w-100">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <h7 id="product-text">SPECIAL OFFERS</h7>
-      <div id="products" class="products" >
+      <div id="products" class="products" style="display: flex;">
 
       </div>
     </div>
+
+    <!-- Total  -->
+    <div class="total-container" id="checkout">
+      <p class="total"></p>
+    </div>
+    <div class="buy-button">
+      <!-- <button class="myself">Purchase for myself</button>
+      <button class="gift">Purchase as a gift</button> -->
+      <button type="button" class="btn btn-primary" disabled>Purchase for myself</button>
+      <button type="button" class="btn btn-primary" disabled>Purchase as a gift</button>
+    </div>
+
     <!-- Footer -->
     <div class="footer">
       <div class="valve-img">
@@ -140,7 +94,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
 </body>
 
 </html>
