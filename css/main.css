@@ -291,7 +291,12 @@ img {
 
 .card h6 {
     color: rgb(0, 255, 149);
-} 
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
 
 /* .ticketcontent {
 	width: 100%;

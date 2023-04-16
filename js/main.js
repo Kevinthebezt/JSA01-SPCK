@@ -101,29 +101,29 @@ function renderData(data) {
     for (let product of data) {
         let card = document.createElement("div");
         card.classList.add("card");
-    
+
         let img = document.createElement("img");
         img.classList.add("img-container");
         img.setAttribute("src", product.image);
         card.appendChild(img);
-    
+
         let container = document.createElement("div");
         container.classList.add("container");
-    
+
         let name = document.createElement("h5");
         name.classList.add("product-name");
         name.innerText = product.name;
         container.appendChild(name);
-    
+
         let price = document.createElement("h6");
         price.innerHTML = "<b>Price: </b>" + product.price;
         container.appendChild(price);
-    
+
         let btn = document.createElement("button");
         btn.setAttribute("onclick", `addToCart("${product.name}")`);
         btn.innerText = "Add to Library";
         container.appendChild(btn);
-    
+
         card.appendChild(container);
         document.getElementById("products").appendChild(card);
     }
@@ -273,8 +273,13 @@ const handleSearch = () => {
     const productSearch = products.data.filter((fruit) => {
         return fruit.name.includes(inpSearch);
     });
+    for (let i = 0; i < producPanel.length; i++) {
+        producPanel[i].style.display = "none";
+    }
+
     renderData(productSearch)
 }
+
 
 const btnSearch = document.getElementById("btn-search");
 btnSearch.addEventListener("click", handleSearch)
